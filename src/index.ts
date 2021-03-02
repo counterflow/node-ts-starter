@@ -1,5 +1,3 @@
-"use strict";
+'use strict';
 
-console.log('Hola Spherian Hey 1 !');
-
-console.log('testing');
+console.log('Hello World!');
