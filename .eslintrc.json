@@ -7,6 +7,8 @@
     "extends": [
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
+        "plugin:node/recommended",
+        "plugin:security/recommended",
         "prettier"
     ],
     "parser": "@typescript-eslint/parser",
@@ -15,7 +17,8 @@
     },
     "plugins": [
         "@typescript-eslint",
-        "prettier"
+        "prettier",
+        "security"
     ],
     "rules": {
         "indent": [
