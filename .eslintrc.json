@@ -15,28 +15,8 @@
     "parserOptions": {
         "ecmaVersion": 12
     },
-    "plugins": [
-        "@typescript-eslint",
-        "prettier",
-        "security"
-    ],
+    "plugins": ["@typescript-eslint", "prettier", "security"],
     "rules": {
-        "indent": [
-            "error",
-            4
-        ],
-        "linebreak-style": [
-            "error",
-            "unix"
-        ],
-        "prettier/prettier": 2,
-        "quotes": [
-            "error",
-            "single"
-        ],
-        "semi": [
-            "error",
-            "always"
-        ]
+        "prettier/prettier": 4
     }
 }
